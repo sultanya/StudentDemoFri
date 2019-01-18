@@ -34,6 +34,7 @@ public class Student {
     /**
      * @param givenName the name to set
      */
+    
     public void setName(String givenName) {
         name = givenName;
     }
@@ -50,6 +51,20 @@ public class Student {
      */
     public void setID(int givenID) {
         ID = givenID;
+    }
+
+    /**
+     * @return the Program
+     */
+    public String getProgram() {
+        return Program;
+    }
+
+    /**
+     * @param Program the Program to set
+     */
+    public void setProgram(String Program) {
+        this.Program = Program;
     }
     
     
