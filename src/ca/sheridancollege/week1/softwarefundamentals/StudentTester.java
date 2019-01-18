@@ -26,9 +26,7 @@ public class StudentTester {
         
         for(int i=0;i<studentList.length;i++)
         {
-            System.out.println(studentList[i].getID());
             System.out.println(studentList[i].getName());
-            
         }
         
     }
