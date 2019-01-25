@@ -7,9 +7,23 @@ package ca.sheridancollege.week1.softwarefundamentals;
 
 /**
  *
- * @author mehta
+ * @author mehta date:25 Jan 2019
  */
 public class Student {
+
+    /**
+     * @return the maxCourse
+     */
+    public int getMaxCourse() {
+        return maxCourse;
+    }
+
+    /**
+     * @param maxCourse the maxCourse to set
+     */
+    public void setMaxCourse(int maxCourse) {
+        this.maxCourse = maxCourse;
+    }
 
     /**Model class student
      * Having name, ID 
@@ -18,6 +32,7 @@ public class Student {
     private String name;
     private int ID;
     private String Program;
+    private int maxCourse;
 
     public Student(String givenName, int givenID)
     {
